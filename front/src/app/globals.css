@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pixelify+Sans:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url('/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Opcional: Puedes definir clases CSS adicionales si lo deseas */
+.font-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.font-pixelify {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.icon-hover:hover {
+  filter: brightness(0) saturate(100%) invert(1);
+  /* Ajusta el color según el estilo del botón */
+}
+
