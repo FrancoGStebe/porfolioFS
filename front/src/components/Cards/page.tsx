@@ -29,7 +29,7 @@ export const Card = () => {
                       <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-colors duration-300 hover:bg-gray-800 group cursor-pointer min-h-[400px] flex flex-col">
                           <img src="/ecommerce.png" alt="Beach" className="w-full h-64 object-cover" />
                           <div className="p-6 flex-grow">
-                              <h2 className="text-2xl font-bold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-white">Nadrian'S ecommerce</h2>
+                              <h2 className="text-2xl font-bold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-white">Nadrian&apos;S ecommerce</h2>
                               <p className="text-gray-700 leading-tight mb-4 transition-colors duration-300 group-hover:text-gray-300">
                                 Proyecto Full Stack desarrollado con Next.js para el Front-end, utilizando Tailwind CSS para el diseño responsivo y TypeScript para una mejor identificación de errores en tiempo de desarrollo. 
                                 En el Back-end, se utiliza PostgreSQL como base de datos relacional. Los usuarios pueden registrarse, iniciar sesión, agregar productos al carrito, gestionar su compra y completar la transacción sin inconvenientes.
@@ -47,7 +47,7 @@ export const Card = () => {
                       <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-colors duration-300 hover:bg-gray-800 group cursor-pointer min-h-[400px] flex flex-col">
                           <img src="/peluqueria.png" alt="Forest" className="w-full h-64 object-cover" />
                           <div className="p-6 flex-grow">
-                              <h2 className="text-2xl font-bold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-white">Nadrian'S Barber</h2>
+                              <h2 className="text-2xl font-bold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-white">Nadrian&apos;S Barber</h2>
                               <p className="text-gray-700 leading-tight mb-4 transition-colors duration-300 group-hover:text-gray-300">
                                 Proyecto desarrollado con React y Vite, utilizando TypeScript para una mejor gestión de errores y CSS para los estilos. 
                                 En el Back-end, se emplea PostgreSQL como base de datos. Los usuarios pueden registrarse, iniciar sesión, y reservar o cancelar turnos en la barbería de manera fácil y rápida.
@@ -65,7 +65,7 @@ export const Card = () => {
                       <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-colors duration-300 hover:bg-gray-800 group cursor-pointer min-h-[400px] flex flex-col">
                           <img src="/cine.png" alt="City" className="w-full h-64 object-cover" />
                           <div className="p-6 flex-grow">
-                              <h2 className="text-2xl font-bold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-white">Nadrian'S Cine</h2>
+                              <h2 className="text-2xl font-bold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-white">Nadrian&apos;S Cine</h2>
                               <p className="text-gray-700 leading-tight mb-4 transition-colors duration-300 group-hover:text-gray-300">
                                 Proyecto desarrollado con HTML y CSS para el Front-end y MongoDB en el Back-end. 
                                 Los usuarios pueden subir su película favorita, la cual se mostrará en la página de inicio para que todos puedan visualizarla.
