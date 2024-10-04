@@ -2,10 +2,10 @@ import Image from 'next/image';
 import { FC } from 'react';
 
 const icons = [
-  { src: '/github.png', alt: 'GitHub', href: 'https://github.com' },
-  { src: '/whatsapp.png', alt: 'WhatsApp', href: 'https://wa.me' },
-  { src: '/gmail.png', alt: 'Gmail', href: 'mailto:example@gmail.com' },
-  { src: '/linkedin.png', alt: 'LinkedIn', href: 'https://linkedin.com' },
+  { src: '/github.png', alt: 'GitHub', href: 'https://github.com/FrancoGStebe' },
+  { src: '/whatsapp.png', alt: 'WhatsApp', href: 'https://wa.me/542664187782' },
+  { src: '/gmail.png', alt: 'Gmail', href: 'mailto:stebefranco@gmail.com' },
+  { src: '/linkedin.png', alt: 'LinkedIn', href: 'https://www.linkedin.com/in/franco-gabriel-stebe-0415a9297/' },
 ];
 
 const Icons: FC = () => {
@@ -16,8 +16,8 @@ const Icons: FC = () => {
           <Image
             src={icon.src}
             alt={icon.alt}
-            width={60} // Ajusta el tamaño según sea necesario
-            height={60} // Ajusta el tamaño según sea necesario
+            width={60} 
+            height={60} 
             className="transition-transform transform hover:scale-110 icon-hover"
           />
         </a>
